@@ -4,7 +4,8 @@
 
 ## 🌐 Live Demo
 
-🔗 **[View Live Demo](https://saas-scribe-ai.vercel.app/)** \\
+🔗 **[View Live Demo](https://saas-scribe-ai.vercel.app/)** 
+
 👉 **[Clerk](https://go.clerk.com/GHwC6Yp/)**
 
 👉 **[Neon](https://get.neon.com/XZ88lhE/)**
