@@ -2,6 +2,16 @@
 
 **SaaScribe** is a **production-ready AI-powered SaaS platform** delivering **content generation, intelligent image editing, and resume analysis** — all in a scalable, subscription-based model. Built with **React, Node.js, Express, TailwindCSS**, a **serverless PostgreSQL backend (Neon)**, **secure authentication & billing via Clerk**, and **multi-modal AI capabilities powered by Gemini, Cloudinary, and ClipDrop**. Both frontend and backend are deployed on **Vercel** for low-latency, globally distributed performance.
 
+## 🌐 Live Demo
+
+🔗 **[View Live Demo](https://saas-scribe-ai.vercel.app/)**
+👉 **[Clerk](https://go.clerk.com/GHwC6Yp/)**
+👉 **[Neon](https://get.neon.com/XZ88lhE/)**
+👉 **[Clerk](https://go.clerk.com/GHwC6Yp/)**   <!-- Correct Markdown link syntax: no space between ] and ( -->
+👉 **[Neon](https://get.neon.com/XZ88lhE/)**    <!-- Same here: fixed space issue -->
+
+
+*Experience the full SaaS platform with real-time AI generation capabilities*
 ---
 
 ## ✨ Core Features
@@ -127,16 +137,6 @@ npm start
 ```
 
 The application will be available at `http://localhost:3000`
-
----
-
-## 🌐 Live Demo
-
-🔗 **[View Live Demo](https://saas-scribe-ai.vercel.app/)**
-👉 **[Clerk](https://go.clerk.com/GHwC6Yp/)**
-👉 **[Neon](https://get.neon.com/XZ88lhE/)**
-
-*Experience the full SaaS platform with real-time AI generation capabilities*
 
 ---
 
