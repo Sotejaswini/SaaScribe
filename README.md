@@ -11,6 +11,7 @@
 
 👉 **[Neon](https://get.neon.com/XZ88lhE/)**
 
+👉**[Gemini](https://aistudio.google.com/apikey?_gl=1*16hhxge*_up*MQ..&gclid=CjwKCAjwhuHEBhBHEiwAZrvdcrPDtgPJ-dQhQAYenC63CxRmvIyws1zw5OoVxyctSGcrS3X2cAYcHxoCLJMQAvD_BwE&gclsrc=aw.ds)**
 
 *Experience the full SaaS platform with real-time AI generation capabilities*
 ---
