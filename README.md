@@ -50,23 +50,25 @@
 saascribe/
 ├── client/                 # Frontend (React + TailwindCSS)
 │   ├── public/
+|   |──node_modules/
 │   ├── src/
-│   │   ├── components/
+│   │   ├── assets/
+|   |   |── components/
 │   │   ├── pages/
-│   │   ├── hooks/
-│   │   ├── utils/
-│   │   └── App.js
-│   └── package.json
+│   │   ├── main.jsx
+│   │   |── App.jsx
+│   │   └── index.css
+│   └── .env
 │
 ├── server/                 # Backend (Node.js + Express)
-│   ├── routes/
+│   ├── configs/
 │   ├── controllers/
 │   ├── middleware/
-│   ├── utils/
-│   ├── config/
-│   └── package.json
+│   ├── node_modules/
+│   ├── routes/
+│   └── .env
 │
-├── docs/                   # API Documentation
+|
 └── README.md
 ```
 
@@ -78,22 +80,20 @@ Create a `.env` file in both `client` and `server` directories:
 
 **Client (.env)**
 ```env
-REACT_APP_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
-REACT_APP_API_URL=http://localhost:5000
-REACT_APP_CLOUDINARY_CLOUD_NAME=your_cloudinary_name
+VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+VITE_BASE_URL=http://localhost:3000
 ```
 
 **Server (.env)**
 ```env
-PORT=5000
 DATABASE_URL=your_neon_database_url
+CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
 CLERK_SECRET_KEY=your_clerk_secret_key
 GEMINI_API_KEY=your_gemini_api_key
 CLIPDROP_API_KEY=your_clipdrop_api_key
-CLOUDINARY_CLOUD_NAME=your_cloudinary_name
+CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
 CLOUDINARY_API_KEY=your_cloudinary_api_key
-CLOUDINARY_API_SECRET=your_cloudinary_api_secret
-NODE_ENV=development
+CLOUDINARY_API_SECRET=your_cloudinary_api_secret_key
 ```
 
 ---
@@ -102,8 +102,8 @@ NODE_ENV=development
 
 ```bash
 # Clone repository
-git clone https://github.com/your-username/saascribe.git
-cd saascribe
+git clone https://github.com/Sotejaswini/SaaScribe.git
+cd SaaScribe
 
 # Install dependencies
 cd client && npm install
@@ -132,7 +132,7 @@ The application will be available at `http://localhost:3000`
 
 ## 🌐 Live Demo
 
-🔗 **[View Live Demo](https://saascribe.vercel.app)**
+🔗 **[View Live Demo](https://saas-scribe-ai.vercel.app/)**
 
 *Experience the full SaaS platform with real-time AI generation capabilities*
 
@@ -181,36 +181,6 @@ POST /api/subscription/upgrade     - Upgrade to premium
 - **Rate Limiting:** API protection against abuse and DDoS
 - **Image Optimization:** Automatic compression and format conversion
 - **Error Monitoring:** Comprehensive logging and error tracking
-
----
-
-## 📸 Screenshots
-
-*Add feature screenshots and demo GIFs here to showcase the UI/UX*
-
----
-
-## 🔮 Future Enhancements
-
-- [ ] Multi-language AI content generation
-- [ ] Real-time collaborative editing
-- [ ] Bulk image/document processing
-- [ ] Integration with popular CMS and ATS tools
-- [ ] Advanced analytics dashboard
-- [ ] Mobile application (React Native)
-- [ ] API rate limiting and usage analytics
-- [ ] Webhook integrations for third-party services
-
----
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ---
 
 ## 📄 License
@@ -218,10 +188,6 @@ POST /api/subscription/upgrade     - Upgrade to premium
 MIT License – free to use & modify.
 
 ---
-
-## 📞 Support
-
-For support, email support@saascribe.com or join our [Discord community](https://discord.gg/saascribe).
 
 ---
 
