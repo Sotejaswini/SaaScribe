@@ -133,8 +133,8 @@ The application will be available at `http://localhost:3000`
 ## 🌐 Live Demo
 
 🔗 **[View Live Demo](https://saas-scribe-ai.vercel.app/)**
-👉 **[Clerk] (https://go.clerk.com/GHwC6Yp)**
-👉 **[Neon] (https://get.neon.com/XZ88lhE)**
+👉 **[Clerk](https://go.clerk.com/GHwC6Yp/)**
+👉 **[Neon](https://get.neon.com/XZ88lhE/)**
 
 *Experience the full SaaS platform with real-time AI generation capabilities*
 
