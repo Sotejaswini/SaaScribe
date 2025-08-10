@@ -1,4 +1,4 @@
-# SaaScribe 🚀
+# SaaScribe.ai
 
 **SaaScribe** is a **production-ready AI-powered SaaS platform** delivering **content generation, intelligent image editing, and resume analysis** — all in a scalable, subscription-based model. Built with **React, Node.js, Express, TailwindCSS**, a **serverless PostgreSQL backend (Neon)**, **secure authentication & billing via Clerk**, and **multi-modal AI capabilities powered by Gemini, Cloudinary, and ClipDrop**. Both frontend and backend are deployed on **Vercel** for low-latency, globally distributed performance.
 
