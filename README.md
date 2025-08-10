@@ -4,11 +4,10 @@
 
 ## 🌐 Live Demo
 
-🔗 **[View Live Demo](https://saas-scribe-ai.vercel.app/)**
+🔗 **[View Live Demo](https://saas-scribe-ai.vercel.app/)** \\
 👉 **[Clerk](https://go.clerk.com/GHwC6Yp/)**
+
 👉 **[Neon](https://get.neon.com/XZ88lhE/)**
-👉 **[Clerk](https://go.clerk.com/GHwC6Yp/)**   <!-- Correct Markdown link syntax: no space between ] and ( -->
-👉 **[Neon](https://get.neon.com/XZ88lhE/)**    <!-- Same here: fixed space issue -->
 
 
 *Experience the full SaaS platform with real-time AI generation capabilities*
