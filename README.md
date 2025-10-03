@@ -44,7 +44,7 @@
 ## 🛠️ Tech Stack
 
 **Frontend:** React, TailwindCSS, React Router, Axios  
-**Backend:** Node.js, Express.js, CORS, Helmet  
+**Backend:** Node.js, Express.js, CORS 
 **Database:** PostgreSQL (Neon - serverless)  
 **Authentication & Billing:** Clerk  
 **AI Services:**
